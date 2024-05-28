@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title><%= htmlWebpackPlugin.options.title %></title>
-    <link rel="shortcut icon" href="/src/images/svg/icon.png" type="image/x-icon" />
   </head>
   <body>
     <!-- HEADER -->
@@ -57,13 +56,28 @@
           </a>
         </div>
 
-        <div class="country-info"></div>
+        <div class="country-info"> </div>
       </div>
     </main>
     <!-- MAIN END -->
 
     <!-- FOOTER -->
-
+    <footer class="footer">
+      <h3>by Davronbek Anvarov</h3>
+    </footer>
     <!-- FOOTER END -->
+    <!-- Loader -->
+    <div class="loader hidden">
+      <div class="lds-roller">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </div>
   </body>
 </html>
